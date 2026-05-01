@@ -1,5 +1,5 @@
 // ─── PHASES ───────────────────────────────────────────────────────────────────
-const PHASE = {
+export const PHASE = {
   WELCOME: "welcome",
   ASK_CLASS: "ask_class",
   ASK_TOPIC: "ask_topic",
