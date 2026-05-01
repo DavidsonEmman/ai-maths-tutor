@@ -1,8 +1,14 @@
 // ─── EXPLANATION ENGINE ───────────────────────────────────────────────────────
-function buildExplanation(q) {
+export function buildExplanation(question) {
   const lines = [];
-  lines.push(`Let me walk you through **${q.q}**:`);
-  q.steps.forEach((s, i) => lines.push(`Step ${i + 1}: ${s}`));
-  lines.push(`Answer: **${q.answerDisplay || q.answer}**`);
+
+  lines.push(`Let me walk you through **${question.q}**:`);
+
+  question.steps.forEach((step, index) => {
+    lines.push(`Step ${index + 1}: ${step}`);
+  });
+
+  lines.push(`Answer: **${question.answerDisplay || question.answer}**`);
+
   return lines;
 }
