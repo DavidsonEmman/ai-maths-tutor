@@ -1,2 +1,8 @@
 // ─── HELPERS ──────────────────────────────────────────────────────────────────
-function pct(c, t) { return t === 0 ? 0 : Math.round((c / t) * 100); }
+export function pct(correct, total) {
+  return total === 0 ? 0 : Math.round((correct / total) * 100);
+}
+
+export function delay(fn, ms) {
+  setTimeout(fn, ms);
+}
