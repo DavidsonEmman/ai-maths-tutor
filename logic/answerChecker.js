@@ -1,4 +1,4 @@
-
+// ─── ANSWER CHECKER ───────────────────────────────────────────────────────
 function cleanInput(value) {
   return String(value)
     .toLowerCase()
