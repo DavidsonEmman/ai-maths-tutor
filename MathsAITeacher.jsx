@@ -17,7 +17,7 @@ import ChatArea from "./components/ChatArea";
 import InputArea from "./components/InputArea";
 import RestartButton from "./components/RestartButton";
 
-export default function MathsAITeacher() {
+export default function SmartMathsTeacher() {
   const [messages, setMessages] = useState([]);
   const [phase, setPhase] = useState(PHASE.WELCOME);
   const [input, setInput] = useState("");
@@ -50,7 +50,7 @@ export default function MathsAITeacher() {
 
       delay(() => {
         pushTutor(
-          "I am your AI Maths Teacher. I will ask you questions, explain your mistakes, and help you improve.",
+          "I am your Smart Maths Teacher. I will ask you questions, explain your mistakes, and help you improve.",
           ""
         );
 
