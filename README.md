@@ -1,6 +1,6 @@
-# AI Maths Tutor
+# Smart Maths Tutor
 
-Interactive AI-based maths tutoring system with adaptive difficulty and step-by-step explanations.
+Interactive maths tutoring system with adaptive difficulty and step-by-step explanations.
 
 ## Features
 - Adaptive difficulty: Easy → Medium → Hard

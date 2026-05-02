@@ -3,7 +3,7 @@ export default function TopBar({ studentName, studentClass, topic, diffLabel }) 
   return (
     <div className="topbar">
       <div>
-        <div className="topbar-title">🖊 Maths AI Teacher</div>
+        <div className="topbar-title">🖊 Smart Maths Teacher</div>
         <div className="topbar-sub">Adaptive · Explanatory · Personal</div>
       </div>
 
