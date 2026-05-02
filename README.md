@@ -1,4 +1,4 @@
-# AI Maths Tutor
+# Smart Maths Tutor
 
 Interactive AI-based maths tutoring system with adaptive difficulty and step-by-step explanations.
 
