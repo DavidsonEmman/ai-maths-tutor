@@ -1,14 +1,14 @@
 import { useState, useEffect, useRef } from "react";
 
-import { CSS } from "./styles/mathsTeacherStyles";
+import { CSS } from "./styles/mathsteacherstyles";
 
 import { PHASE } from "./constants/phases";
 import { CORRECT_LINES, WRONG_LINES, pick } from "./data/feedbackLines";
 
 import { pct, delay } from "./logic/helpers";
-import { generateQuestion, genSimilar } from "./logic/questionEngine";
-import { buildExplanation } from "./logic/explanationEngine";
-import { checkAnswer as validateAnswer } from "./logic/answerChecker";
+import { generateQuestion, genSimilar } from "./logic/questionengine";
+import { buildExplanation } from "./logic/explanationengine";
+import { checkAnswer as validateAnswer } from "./logic/answerchecker";
 
 import TopBar from "./components/TopBar";
 import ScoreStrip from "./components/ScoreStrip";
