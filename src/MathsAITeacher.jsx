@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import { CSS } from "./styles/mathsteacherstyles";
 
 import { PHASE } from "./constants/phases";
-import { CORRECT_LINES, WRONG_LINES, pick } from "./data/feedbackLines";
+import { CORRECT_LINES, WRONG_LINES, pick } from "./data/feedbacklines";
 
 import { pct, delay } from "./logic/helpers";
 import { generateQuestion, genSimilar } from "./logic/questionengine";
