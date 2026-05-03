@@ -1,3 +1,4 @@
+import React from "react";
 import TopicPicker from "./TopicPicker";
 
 export default function ChatBubble({

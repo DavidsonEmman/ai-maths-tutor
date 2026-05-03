@@ -1,3 +1,4 @@
+import React from "react";
 import { TOPICS } from "../data/topics";
 import { PHASE } from "../constants/phases";
 

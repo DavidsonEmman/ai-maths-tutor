@@ -1,3 +1,4 @@
+import React from "react";
 import { PHASE } from "../constants/phases";
 
 export default function InputArea({

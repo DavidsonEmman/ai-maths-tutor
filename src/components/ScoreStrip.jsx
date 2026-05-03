@@ -1,3 +1,4 @@
+import React from "react";
 export default function ScoreStrip({ totalAttempted, percentage, correct, wrong }) {
   if (totalAttempted <= 0) return null;
 
